@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */; };
+		40C27F10251FFC38002F570D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0F251FFC38002F570D /* ContentView.swift */; };
+		40C27F12251FFC3B002F570D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C27F11251FFC3B002F570D /* Assets.xcassets */; };
+		40C27F15251FFC3B002F570D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C27F14251FFC3B002F570D /* Preview Assets.xcassets */; };
+		40C27F20251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */; };
+		40C27F2B251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C27F1C251FFC3B002F570D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C27F02251FFC38002F570D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C27F09251FFC38002F570D;
+			remoteInfo = iOSHeadphoneMotionUdp;
+		};
+		40C27F27251FFC3B002F570D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C27F02251FFC38002F570D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C27F09251FFC38002F570D;
+			remoteInfo = iOSHeadphoneMotionUdp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHeadphoneMotionUdp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpApp.swift; sourceTree = "<group>"; };
+		40C27F0F251FFC38002F570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C27F11251FFC3B002F570D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C27F14251FFC3B002F570D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40C27F16251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHeadphoneMotionUdpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpTests.swift; sourceTree = "<group>"; };
+		40C27F21251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHeadphoneMotionUdpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpUITests.swift; sourceTree = "<group>"; };
+		40C27F2C251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C27F07251FFC38002F570D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F18251FFC3B002F570D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F23251FFC3B002F570D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C27F01251FFC38002F570D = {
+			isa = PBXGroup;
+			children = (
+				40C27F0C251FFC38002F570D /* iOSHeadphoneMotionUdp */,
+				40C27F1E251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */,
+				40C27F29251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */,
+				40C27F0B251FFC38002F570D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C27F0B251FFC38002F570D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */,
+				40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */,
+				40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C27F0C251FFC38002F570D /* iOSHeadphoneMotionUdp */ = {
+			isa = PBXGroup;
+			children = (
+				40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */,
+				40C27F0F251FFC38002F570D /* ContentView.swift */,
+				40C27F11251FFC3B002F570D /* Assets.xcassets */,
+				40C27F16251FFC3B002F570D /* Info.plist */,
+				40C27F13251FFC3B002F570D /* Preview Content */,
+			);
+			path = iOSHeadphoneMotionUdp;
+			sourceTree = "<group>";
+		};
+		40C27F13251FFC3B002F570D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40C27F14251FFC3B002F570D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40C27F1E251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */,
+				40C27F21251FFC3B002F570D /* Info.plist */,
+			);
+			path = iOSHeadphoneMotionUdpTests;
+			sourceTree = "<group>";
+		};
+		40C27F29251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */,
+				40C27F2C251FFC3B002F570D /* Info.plist */,
+			);
+			path = iOSHeadphoneMotionUdpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdp" */;
+			buildPhases = (
+				40C27F06251FFC38002F570D /* Sources */,
+				40C27F07251FFC38002F570D /* Frameworks */,
+				40C27F08251FFC38002F570D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSHeadphoneMotionUdp;
+			productName = iOSHeadphoneMotionUdp;
+			productReference = 40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C27F1A251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpTests" */;
+			buildPhases = (
+				40C27F17251FFC3B002F570D /* Sources */,
+				40C27F18251FFC3B002F570D /* Frameworks */,
+				40C27F19251FFC3B002F570D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C27F1D251FFC3B002F570D /* PBXTargetDependency */,
+			);
+			name = iOSHeadphoneMotionUdpTests;
+			productName = iOSHeadphoneMotionUdpTests;
+			productReference = 40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C27F25251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpUITests" */;
+			buildPhases = (
+				40C27F22251FFC3B002F570D /* Sources */,
+				40C27F23251FFC3B002F570D /* Frameworks */,
+				40C27F24251FFC3B002F570D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C27F28251FFC3B002F570D /* PBXTargetDependency */,
+			);
+			name = iOSHeadphoneMotionUdpUITests;
+			productName = iOSHeadphoneMotionUdpUITests;
+			productReference = 40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C27F02251FFC38002F570D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					40C27F09251FFC38002F570D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					40C27F1A251FFC3B002F570D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40C27F09251FFC38002F570D;
+					};
+					40C27F25251FFC3B002F570D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40C27F09251FFC38002F570D;
+					};
+				};
+			};
+			buildConfigurationList = 40C27F05251FFC38002F570D /* Build configuration list for PBXProject "iOSHeadphoneMotionUdp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C27F01251FFC38002F570D;
+			productRefGroup = 40C27F0B251FFC38002F570D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */,
+				40C27F1A251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */,
+				40C27F25251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C27F08251FFC38002F570D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C27F15251FFC3B002F570D /* Preview Assets.xcassets in Resources */,
+				40C27F12251FFC3B002F570D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F19251FFC3B002F570D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F24251FFC3B002F570D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C27F06251FFC38002F570D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C27F10251FFC38002F570D /* ContentView.swift in Sources */,
+				40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F17251FFC3B002F570D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C27F20251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C27F22251FFC3B002F570D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C27F2B251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C27F1D251FFC3B002F570D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */;
+			targetProxy = 40C27F1C251FFC3B002F570D /* PBXContainerItemProxy */;
+		};
+		40C27F28251FFC3B002F570D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */;
+			targetProxy = 40C27F27251FFC3B002F570D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40C27F2D251FFC3B002F570D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C27F2E251FFC3B002F570D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C27F30251FFC3B002F570D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C27F31251FFC3B002F570D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40C27F33251FFC3B002F570D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHeadphoneMotionUdp.app/iOSHeadphoneMotionUdp";
+			};
+			name = Debug;
+		};
+		40C27F34251FFC3B002F570D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHeadphoneMotionUdp.app/iOSHeadphoneMotionUdp";
+			};
+			name = Release;
+		};
+		40C27F36251FFC3B002F570D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSHeadphoneMotionUdp;
+			};
+			name = Debug;
+		};
+		40C27F37251FFC3B002F570D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = iOSHeadphoneMotionUdpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSHeadphoneMotionUdp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C27F05251FFC38002F570D /* Build configuration list for PBXProject "iOSHeadphoneMotionUdp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C27F2D251FFC3B002F570D /* Debug */,
+				40C27F2E251FFC3B002F570D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C27F30251FFC3B002F570D /* Debug */,
+				40C27F31251FFC3B002F570D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C27F33251FFC3B002F570D /* Debug */,
+				40C27F34251FFC3B002F570D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C27F36251FFC3B002F570D /* Debug */,
+				40C27F37251FFC3B002F570D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C27F02251FFC38002F570D /* Project object */;
+}
