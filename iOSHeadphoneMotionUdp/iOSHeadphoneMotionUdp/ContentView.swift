@@ -6,10 +6,15 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 struct ContentView: View {
+    @State private var hmm = CMHeadphoneMotionManager()
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("isDeviceMotionAvailable = " + String(hmm.isDeviceMotionAvailable))
+            .padding()
+        Text("isDeviceMotionActive = " + String(hmm.isDeviceMotionActive))
             .padding()
     }
 }
