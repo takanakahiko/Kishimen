@@ -9,3 +9,11 @@ CMHeadphoneMotionManager で取得した AirPods Pro のデータを UDP で任�
 私個人の iOS アプリケーション開発の勉強用途です。
 レビューやPR、Issueを気兼ねなくお願いします。
 日本語でも英語でも構いません。
+
+## Example of use
+
+You can do this in combination with Unity
+
+Unity と組み合わせることでこんな事ができます。
+
+![example](./images/example.gif)
