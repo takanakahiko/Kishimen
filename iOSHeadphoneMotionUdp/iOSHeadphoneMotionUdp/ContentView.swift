@@ -98,21 +98,12 @@ struct ConnectionSetting {
 class ConnectionManager {
     
     private var connection: NWConnection?
-    
-    // Readonly なプロパティを実装したい場合ってこれでいいんだろうか
-    var _isConnectionReady = false
-    var isConnectionReady:Bool {
-        get{
-            return _isConnectionReady
-        }
-    }
+    private(set) var isConnectionReady: Bool = false
     
     func connect(setting: ConnectionSetting) {
-        
         if isConnectionReady {
             disconnect()
         }
-        
         if let port = NWEndpoint.Port(rawValue: setting.port) {
             connection = NWConnection(
                 host: NWEndpoint.Host(setting.address),
@@ -123,12 +114,11 @@ class ConnectionManager {
             print("invalid port number")
             return
         }
-        
         if let connection = connection {
             connection.stateUpdateHandler = { (state: NWConnection.State) in
                 switch(state) {
                 case .ready:
-                    self._isConnectionReady = true
+                    self.isConnectionReady = true
                 case .waiting(let error):
                     print(error)
                 case .failed(let error):
@@ -146,7 +136,7 @@ class ConnectionManager {
         if let connection = connection {
             connection.cancel()
         }
-        _isConnectionReady = false
+        isConnectionReady = false
     }
     
     func send(content: Foundation.Data) {
