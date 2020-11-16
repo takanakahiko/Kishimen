@@ -10,8 +10,8 @@ import CoreMotion
 import Network
 
 struct ConnectionSetting {
-    var address = "192.168.3.9"
-    var port: UInt16 = 41234
+    var address = "192.168.0.1"
+    var port: UInt16 = 12345
 }
 
 class ConnectionManager {
