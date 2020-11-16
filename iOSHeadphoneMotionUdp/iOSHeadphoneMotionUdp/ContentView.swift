@@ -362,44 +362,23 @@ struct ContentView: View {
     
     var body: some View {
         VStack()  {
-            
             Spacer()
-            
             StatusCircle(started: $data.started)
-            
             Spacer()
-            
             StartStopButton(started: $data.started, startFunc: data.restart, stopFunc: data.stop)
-            
             Spacer()
-            
             SettingCard(setting: data.connectionSetting)
-            .onTapGesture {
-                self.showSheetView.toggle()
-            }
-            .sheet(isPresented: $showSheetView) {
-                SettingModal(
-                    showSheetView: self.$showSheetView,
-                    setting: self.$data.connectionSetting
-                )
-            }
-            
+                .onTapGesture {
+                    self.showSheetView.toggle()
+                }
+                .sheet(isPresented: $showSheetView) {
+                    SettingModal(
+                        showSheetView: self.$showSheetView,
+                        setting: self.$data.connectionSetting
+                    )
+                }
             Spacer()
-            
-            // motion data
-            // if let motion = data.motion {
-            //     Text("motion = \(motion)").padding()
-            // }
         }.padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingModal(
-            showSheetView: .constant(true),
-            setting: .constant(ConnectionSetting())
-        )
     }
 }
 
@@ -413,12 +392,10 @@ struct StatusCircle: View {
                 .foregroundColor(self.started ? Color.green : Color.gray)
                 .opacity(0.6)
                 .frame(width: 200, height: 200)
-            
             Text(self.started ? "Sending Now" : "Not working")
                 .font(.title2)
                 .fontWeight(.black)
                 .foregroundColor(.white)
-            
         }
     }
 }
@@ -430,11 +407,8 @@ struct StartStopButton: View {
     var stopFunc: () -> Void
     
     var body: some View{
-        
         HStack {
-            
             Spacer()
-            
             Button(action: startFunc) {
                 Text("Start")
                     .font(.title2)
@@ -444,9 +418,7 @@ struct StartStopButton: View {
                     .background(Color.blue)
                     .cornerRadius(10)
             }
-            
             Spacer()
-            
             Button(action: stopFunc ) {
                 Text("Stop")
                     .font(.title2)
@@ -456,11 +428,17 @@ struct StartStopButton: View {
                     .background(Color.red)
                     .cornerRadius(10)
             }
-            
             Spacer()
-            
         }.padding()
-        
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        SettingModal(
+            showSheetView: .constant(true),
+            setting: .constant(ConnectionSetting())
+        )
     }
 }
 
