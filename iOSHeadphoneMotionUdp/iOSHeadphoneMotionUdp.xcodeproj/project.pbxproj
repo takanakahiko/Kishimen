@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4065E7022562DD6700D56476 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065E7012562DD6700D56476 /* Types.swift */; };
 		40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */; };
 		40C27F10251FFC38002F570D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0F251FFC38002F570D /* ContentView.swift */; };
 		40C27F12251FFC3B002F570D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C27F11251FFC3B002F570D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSHeadphoneMotionUdp.entitlements; sourceTree = "<group>"; };
+		4065E7012562DD6700D56476 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHeadphoneMotionUdp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpApp.swift; sourceTree = "<group>"; };
 		40C27F0F251FFC38002F570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */,
 				40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */,
 				40C27F0F251FFC38002F570D /* ContentView.swift */,
+				4065E7012562DD6700D56476 /* Types.swift */,
 				40C27F11251FFC3B002F570D /* Assets.xcassets */,
 				40C27F16251FFC3B002F570D /* Info.plist */,
 				40C27F13251FFC3B002F570D /* Preview Content */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4065E7022562DD6700D56476 /* Types.swift in Sources */,
 				40C27F10251FFC38002F570D /* ContentView.swift in Sources */,
 				40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */,
 			);
