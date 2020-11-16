@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4065E7022562DD6700D56476 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065E7012562DD6700D56476 /* Types.swift */; };
-		40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */; };
+		40C27F0E251FFC38002F570D /* KishimenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0D251FFC38002F570D /* KishimenApp.swift */; };
 		40C27F10251FFC38002F570D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F0F251FFC38002F570D /* ContentView.swift */; };
 		40C27F12251FFC3B002F570D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C27F11251FFC3B002F570D /* Assets.xcassets */; };
 		40C27F15251FFC3B002F570D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C27F14251FFC3B002F570D /* Preview Assets.xcassets */; };
-		40C27F20251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */; };
-		40C27F2B251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */; };
+		40C27F20251FFC3B002F570D /* KishimenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F1F251FFC3B002F570D /* KishimenTests.swift */; };
+		40C27F2B251FFC3B002F570D /* KishimenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C27F2A251FFC3B002F570D /* KishimenUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,31 +22,31 @@
 			containerPortal = 40C27F02251FFC38002F570D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 40C27F09251FFC38002F570D;
-			remoteInfo = iOSHeadphoneMotionUdp;
+			remoteInfo = Kishimen;
 		};
 		40C27F27251FFC3B002F570D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 40C27F02251FFC38002F570D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 40C27F09251FFC38002F570D;
-			remoteInfo = iOSHeadphoneMotionUdp;
+			remoteInfo = Kishimen;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSHeadphoneMotionUdp.entitlements; sourceTree = "<group>"; };
+		40149C7A255EB8CD00086AE1 /* Kishimen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kishimen.entitlements; sourceTree = "<group>"; };
 		4065E7012562DD6700D56476 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
-		40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHeadphoneMotionUdp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpApp.swift; sourceTree = "<group>"; };
+		40C27F0A251FFC38002F570D /* Kishimen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kishimen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F0D251FFC38002F570D /* KishimenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KishimenApp.swift; sourceTree = "<group>"; };
 		40C27F0F251FFC38002F570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40C27F11251FFC3B002F570D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C27F14251FFC3B002F570D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40C27F16251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHeadphoneMotionUdpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpTests.swift; sourceTree = "<group>"; };
+		40C27F1B251FFC3B002F570D /* KishimenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KishimenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F1F251FFC3B002F570D /* KishimenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KishimenTests.swift; sourceTree = "<group>"; };
 		40C27F21251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHeadphoneMotionUdpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpUITests.swift; sourceTree = "<group>"; };
+		40C27F26251FFC3B002F570D /* KishimenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KishimenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C27F2A251FFC3B002F570D /* KishimenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KishimenUITests.swift; sourceTree = "<group>"; };
 		40C27F2C251FFC3B002F570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,9 +78,9 @@
 		40C27F01251FFC38002F570D = {
 			isa = PBXGroup;
 			children = (
-				40C27F0C251FFC38002F570D /* iOSHeadphoneMotionUdp */,
-				40C27F1E251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */,
-				40C27F29251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */,
+				40C27F0C251FFC38002F570D /* Kishimen */,
+				40C27F1E251FFC3B002F570D /* KishimenTests */,
+				40C27F29251FFC3B002F570D /* KishimenUITests */,
 				40C27F0B251FFC38002F570D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,25 +88,25 @@
 		40C27F0B251FFC38002F570D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */,
-				40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */,
-				40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */,
+				40C27F0A251FFC38002F570D /* Kishimen.app */,
+				40C27F1B251FFC3B002F570D /* KishimenTests.xctest */,
+				40C27F26251FFC3B002F570D /* KishimenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40C27F0C251FFC38002F570D /* iOSHeadphoneMotionUdp */ = {
+		40C27F0C251FFC38002F570D /* Kishimen */ = {
 			isa = PBXGroup;
 			children = (
-				40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */,
-				40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */,
+				40149C7A255EB8CD00086AE1 /* Kishimen.entitlements */,
+				40C27F0D251FFC38002F570D /* KishimenApp.swift */,
 				40C27F0F251FFC38002F570D /* ContentView.swift */,
 				4065E7012562DD6700D56476 /* Types.swift */,
 				40C27F11251FFC3B002F570D /* Assets.xcassets */,
 				40C27F16251FFC3B002F570D /* Info.plist */,
 				40C27F13251FFC3B002F570D /* Preview Content */,
 			);
-			path = iOSHeadphoneMotionUdp;
+			path = Kishimen;
 			sourceTree = "<group>";
 		};
 		40C27F13251FFC3B002F570D /* Preview Content */ = {
@@ -117,30 +117,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		40C27F1E251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */ = {
+		40C27F1E251FFC3B002F570D /* KishimenTests */ = {
 			isa = PBXGroup;
 			children = (
-				40C27F1F251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift */,
+				40C27F1F251FFC3B002F570D /* KishimenTests.swift */,
 				40C27F21251FFC3B002F570D /* Info.plist */,
 			);
-			path = iOSHeadphoneMotionUdpTests;
+			path = KishimenTests;
 			sourceTree = "<group>";
 		};
-		40C27F29251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */ = {
+		40C27F29251FFC3B002F570D /* KishimenUITests */ = {
 			isa = PBXGroup;
 			children = (
-				40C27F2A251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift */,
+				40C27F2A251FFC3B002F570D /* KishimenUITests.swift */,
 				40C27F2C251FFC3B002F570D /* Info.plist */,
 			);
-			path = iOSHeadphoneMotionUdpUITests;
+			path = KishimenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */ = {
+		40C27F09251FFC38002F570D /* Kishimen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdp" */;
+			buildConfigurationList = 40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "Kishimen" */;
 			buildPhases = (
 				40C27F06251FFC38002F570D /* Sources */,
 				40C27F07251FFC38002F570D /* Frameworks */,
@@ -150,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = iOSHeadphoneMotionUdp;
-			productName = iOSHeadphoneMotionUdp;
-			productReference = 40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */;
+			name = Kishimen;
+			productName = Kishimen;
+			productReference = 40C27F0A251FFC38002F570D /* Kishimen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40C27F1A251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */ = {
+		40C27F1A251FFC3B002F570D /* KishimenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpTests" */;
+			buildConfigurationList = 40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "KishimenTests" */;
 			buildPhases = (
 				40C27F17251FFC3B002F570D /* Sources */,
 				40C27F18251FFC3B002F570D /* Frameworks */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				40C27F1D251FFC3B002F570D /* PBXTargetDependency */,
 			);
-			name = iOSHeadphoneMotionUdpTests;
-			productName = iOSHeadphoneMotionUdpTests;
-			productReference = 40C27F1B251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.xctest */;
+			name = KishimenTests;
+			productName = KishimenTests;
+			productReference = 40C27F1B251FFC3B002F570D /* KishimenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		40C27F25251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */ = {
+		40C27F25251FFC3B002F570D /* KishimenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpUITests" */;
+			buildConfigurationList = 40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "KishimenUITests" */;
 			buildPhases = (
 				40C27F22251FFC3B002F570D /* Sources */,
 				40C27F23251FFC3B002F570D /* Frameworks */,
@@ -186,9 +186,9 @@
 			dependencies = (
 				40C27F28251FFC3B002F570D /* PBXTargetDependency */,
 			);
-			name = iOSHeadphoneMotionUdpUITests;
-			productName = iOSHeadphoneMotionUdpUITests;
-			productReference = 40C27F26251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.xctest */;
+			name = KishimenUITests;
+			productName = KishimenUITests;
+			productReference = 40C27F26251FFC3B002F570D /* KishimenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 40C27F05251FFC38002F570D /* Build configuration list for PBXProject "iOSHeadphoneMotionUdp" */;
+			buildConfigurationList = 40C27F05251FFC38002F570D /* Build configuration list for PBXProject "Kishimen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */,
-				40C27F1A251FFC3B002F570D /* iOSHeadphoneMotionUdpTests */,
-				40C27F25251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests */,
+				40C27F09251FFC38002F570D /* Kishimen */,
+				40C27F1A251FFC3B002F570D /* KishimenTests */,
+				40C27F25251FFC3B002F570D /* KishimenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 			files = (
 				4065E7022562DD6700D56476 /* Types.swift in Sources */,
 				40C27F10251FFC38002F570D /* ContentView.swift in Sources */,
-				40C27F0E251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift in Sources */,
+				40C27F0E251FFC38002F570D /* KishimenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C27F20251FFC3B002F570D /* iOSHeadphoneMotionUdpTests.swift in Sources */,
+				40C27F20251FFC3B002F570D /* KishimenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C27F2B251FFC3B002F570D /* iOSHeadphoneMotionUdpUITests.swift in Sources */,
+				40C27F2B251FFC3B002F570D /* KishimenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		40C27F1D251FFC3B002F570D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */;
+			target = 40C27F09251FFC38002F570D /* Kishimen */;
 			targetProxy = 40C27F1C251FFC3B002F570D /* PBXContainerItemProxy */;
 		};
 		40C27F28251FFC3B002F570D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 40C27F09251FFC38002F570D /* iOSHeadphoneMotionUdp */;
+			target = 40C27F09251FFC38002F570D /* Kishimen */;
 			targetProxy = 40C27F27251FFC3B002F570D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,18 +423,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iOSHeadphoneMotionUdp/iOSHeadphoneMotionUdp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Kishimen/Kishimen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kishimen/Preview Content\"";
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdp/Info.plist;
+				INFOPLIST_FILE = Kishimen/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.kishimen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -448,18 +448,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iOSHeadphoneMotionUdp/iOSHeadphoneMotionUdp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Kishimen/Kishimen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kishimen/Preview Content\"";
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdp/Info.plist;
+				INFOPLIST_FILE = Kishimen/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.kishimen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -475,18 +475,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdpTests/Info.plist;
+				INFOPLIST_FILE = KishimenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.KishimenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHeadphoneMotionUdp.app/iOSHeadphoneMotionUdp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kishimen.app/Kishimen";
 			};
 			name = Debug;
 		};
@@ -497,18 +497,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdpTests/Info.plist;
+				INFOPLIST_FILE = KishimenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.KishimenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHeadphoneMotionUdp.app/iOSHeadphoneMotionUdp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kishimen.app/Kishimen";
 			};
 			name = Release;
 		};
@@ -518,17 +518,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdpUITests/Info.plist;
+				INFOPLIST_FILE = KishimenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.KishimenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSHeadphoneMotionUdp;
+				TEST_TARGET_NAME = Kishimen;
 			};
 			name = Debug;
 		};
@@ -538,24 +538,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
-				INFOPLIST_FILE = iOSHeadphoneMotionUdpUITests/Info.plist;
+				INFOPLIST_FILE = KishimenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdpUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.KishimenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSHeadphoneMotionUdp;
+				TEST_TARGET_NAME = Kishimen;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40C27F05251FFC38002F570D /* Build configuration list for PBXProject "iOSHeadphoneMotionUdp" */ = {
+		40C27F05251FFC38002F570D /* Build configuration list for PBXProject "Kishimen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40C27F2D251FFC3B002F570D /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdp" */ = {
+		40C27F2F251FFC3B002F570D /* Build configuration list for PBXNativeTarget "Kishimen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40C27F30251FFC3B002F570D /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpTests" */ = {
+		40C27F32251FFC3B002F570D /* Build configuration list for PBXNativeTarget "KishimenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40C27F33251FFC3B002F570D /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "iOSHeadphoneMotionUdpUITests" */ = {
+		40C27F35251FFC3B002F570D /* Build configuration list for PBXNativeTarget "KishimenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40C27F36251FFC3B002F570D /* Debug */,

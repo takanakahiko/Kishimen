@@ -1,4 +1,4 @@
-# iOSHeadphoneMotionUdp
+# Kishimen
 
 This is an application that sends AirPods Pro data acquired by CMHeadphoneMotionManager to any address and port via UDP.
 This is for my personal study of iOS application development.

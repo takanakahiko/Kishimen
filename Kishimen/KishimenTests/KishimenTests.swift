@@ -1,14 +1,14 @@
 //
-//  iOSHeadphoneMotionUdpTests.swift
-//  iOSHeadphoneMotionUdpTests
+//  KishimenTests.swift
+//  KishimenTests
 //
 //  Created by takanakahiko on 2020/09/27.
 //
 
 import XCTest
-@testable import iOSHeadphoneMotionUdp
+@testable import Kishimen
 
-class iOSHeadphoneMotionUdpTests: XCTestCase {
+class KishimenTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
