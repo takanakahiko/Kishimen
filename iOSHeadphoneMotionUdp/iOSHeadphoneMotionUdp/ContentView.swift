@@ -14,6 +14,27 @@ struct ConnectionSetting {
     var port: UInt16 = 12345
 }
 
+var defaultKeyForAddress = "ConnectionSettingAdress"
+var defaultKeyForPort = "ConnectionSettingPort"
+
+func setDefaultConnectionSetting(setting: ConnectionSetting) {
+    UserDefaults.standard.set(setting.address, forKey: defaultKeyForAddress)
+    UserDefaults.standard.set(setting.port, forKey: defaultKeyForPort)
+}
+
+func loadDefaultConnectionSetting() -> ConnectionSetting {
+    var setting = ConnectionSetting()
+    if let address = UserDefaults.standard.string(forKey: defaultKeyForAddress) {
+        setting.address = address
+    }
+    let port = UserDefaults.standard.integer(forKey: defaultKeyForPort)
+    if port != 0 {
+        setting.port = UInt16(port)
+    }
+    return setting
+}
+
+
 class ConnectionManager {
     
     private var connection: NWConnection?
@@ -81,6 +102,9 @@ class Data: ObservableObject {
                 restart()
             }
         }
+        didSet {
+            setDefaultConnectionSetting(setting: connectionSetting)
+        }
     }
     @Published var started = false
     
@@ -89,6 +113,7 @@ class Data: ObservableObject {
     
     init() {
         stop()
+        connectionSetting = loadDefaultConnectionSetting()
     }
     
     func restart() {
