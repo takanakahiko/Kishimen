@@ -15,20 +15,5 @@ server.on('listening', () => {
   console.log(`server listening ${address.address}:${address.port}`);
 });
 
-//server.bind(41234, "0.0.0.0");
+server.bind(41234, "192.168.3.9");
 // Prints: server listening 0.0.0.0:41234
-
- var os = require('os');
-
-var interfaces = os.networkInterfaces();
-var addresses = [];
-for (var k in interfaces) {
-    for (var k2 in interfaces[k]) {
-        var address = interfaces[k][k2];
-        if (address.family === 'IPv4' && !address.internal) {
-            addresses.push(address.address);
-        }
-    }
-}
-
-console.log(addresses);

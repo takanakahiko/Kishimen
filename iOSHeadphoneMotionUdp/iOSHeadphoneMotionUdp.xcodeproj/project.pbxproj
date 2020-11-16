@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSHeadphoneMotionUdp.entitlements; sourceTree = "<group>"; };
 		40C27F0A251FFC38002F570D /* iOSHeadphoneMotionUdp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHeadphoneMotionUdp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHeadphoneMotionUdpApp.swift; sourceTree = "<group>"; };
 		40C27F0F251FFC38002F570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		40C27F0C251FFC38002F570D /* iOSHeadphoneMotionUdp */ = {
 			isa = PBXGroup;
 			children = (
+				40149C7A255EB8CD00086AE1 /* iOSHeadphoneMotionUdp.entitlements */,
 				40C27F0D251FFC38002F570D /* iOSHeadphoneMotionUdpApp.swift */,
 				40C27F0F251FFC38002F570D /* ContentView.swift */,
 				40C27F11251FFC3B002F570D /* Assets.xcassets */,
@@ -417,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOSHeadphoneMotionUdp/iOSHeadphoneMotionUdp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
@@ -429,6 +432,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOSHeadphoneMotionUdp/iOSHeadphoneMotionUdp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSHeadphoneMotionUdp/Preview Content\"";
 				DEVELOPMENT_TEAM = B4NYL4Y26B;
@@ -451,6 +457,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.iOSHeadphoneMotionUdp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
