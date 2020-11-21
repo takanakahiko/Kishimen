@@ -171,7 +171,7 @@ struct SettingCard: View {
                         Text("Address: \(setting.address)")
                             .fontWeight(.black)
                             .foregroundColor(.primary)
-                        Text("Port: \(setting.port)")
+                        Text("Port: \(String(setting.port))")
                             .fontWeight(.black)
                             .foregroundColor(.primary)
                     }.padding(.vertical)
