@@ -232,32 +232,6 @@ struct SettingModal: View {
     }
 }
 
-struct ContentView: View {
-    @ObservedObject var data = Data()
-    @State var showSheetView = false
-    
-    var body: some View {
-        VStack()  {
-            Spacer()
-            StatusCircle(started: $data.started)
-            Spacer()
-            StartStopButton(started: $data.started, startFunc: data.restart, stopFunc: data.stop)
-            Spacer()
-            SettingCard(setting: data.connectionSetting)
-                .onTapGesture {
-                    self.showSheetView.toggle()
-                }
-                .sheet(isPresented: $showSheetView) {
-                    SettingModal(
-                        showSheetView: self.$showSheetView,
-                        setting: self.$data.connectionSetting
-                    )
-                }
-            Spacer()
-        }.padding()
-    }
-}
-
 struct StatusCircle: View {
     @Binding var started: Bool
     
@@ -309,31 +283,52 @@ struct StartStopButton: View {
     }
 }
 
+struct ContentView: View {
+    @ObservedObject var data = Data()
+    @State var showSheetView = false
+    
+    var body: some View {
+        VStack()  {
+            Spacer()
+            StatusCircle(started: $data.started)
+            Spacer()
+            StartStopButton(started: $data.started, startFunc: data.restart, stopFunc: data.stop)
+            Spacer()
+            SettingCard(setting: data.connectionSetting)
+                .onTapGesture {
+                    self.showSheetView.toggle()
+                }
+                .sheet(isPresented: $showSheetView) {
+                    SettingModal(
+                        showSheetView: self.$showSheetView,
+                        setting: self.$data.connectionSetting
+                    )
+                }
+            Spacer()
+        }.padding()
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack {
+            Spacer()
+            StatusCircle(started: .constant(true))
+            Spacer()
+            StartStopButton(started: .constant(true), startFunc: {}, stopFunc: {})
+            Spacer()
+            SettingCard(setting: ConnectionSetting())
+            Spacer()
+        }.padding()
+    }
+}
+
+
+struct SettingModal_Previews: PreviewProvider {
     static var previews: some View {
         SettingModal(
             showSheetView: .constant(true),
             setting: .constant(ConnectionSetting())
         )
-    }
-}
-
-struct ContentView_Previews2: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            LinearGradient(gradient: Gradient(colors: [
-                Color(red: 0.8, green: 0.8, blue: 0.8),
-                Color(red: 0.95, green: 0.95, blue: 0.95)
-            ]), startPoint: .topLeading, endPoint: .bottomTrailing)
-            VStack {
-                Spacer()
-                StatusCircle(started: .constant(true))
-                Spacer()
-                StartStopButton(started: .constant(true), startFunc: {}, stopFunc: {})
-                Spacer()
-                SettingCard(setting: ConnectionSetting())
-                Spacer()
-            }
-        }.edgesIgnoringSafeArea(.all)
     }
 }
