@@ -187,9 +187,8 @@ struct SettingCard: View {
         .cornerRadius(10)
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 3)
+                .stroke(Color.secondary.opacity(0.2), lineWidth: 3)
         )
-        .border(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), width: 3)
         .padding([.top, .horizontal])
     }
 }
@@ -208,17 +207,16 @@ struct SettingModal: View {
                 Text("Address").font(.headline)
                 TextField("Enter address...", text: $settingInternal.address)
                     .padding(.all)
-                    .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0))
+                    .background(Color.secondary.opacity(0.1))
                     .cornerRadius(5.0)
                 Text("Port").font(.headline)
                 TextField("Enter port...", value: $settingInternal.port, formatter: NumberFormatter())
                     .padding(.all)
-                    .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0))
+                    .background(Color.secondary.opacity(0.1))
                     .cornerRadius(5.0)
                 Spacer()
             }
             .padding()
-            .background(Color.init(red: 0.99, green: 0.99, blue: 0.99))
             .navigationBarTitle("Settings")
             .navigationBarItems(trailing: Button("Save"){
                 print("Dismissing sheet view...")
